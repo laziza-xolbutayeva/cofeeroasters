@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    background: #fff;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.nav_ul{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav_link a{
+    cursor:pointer;
+    text-decoration: none;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+.nav_links a:hover{
+    color:black;
+}
+
+.section{
+    width: 1280px;
+    height: 450px;
+    background-image: url("../images/subscribe/Bitmap.jpg");
+    border-radius: 10px;
+}
+.widget {
+    position: relative;
+    width: 445px;
+    height: 176px;
+    left: 85px;
+    top: 137px;
+}
+.widget_title{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+.widget_text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+/* page */
+
+.page{
+    height: 653px;
+    padding: 91px 85px;
+    margin-top: 164px;
+    background: #2C343E;
+    border-radius: 10px;
+}
+
+.page__line{
+    width: 791px;
+    display: flex;
+    justify-content: space-between;
+}
+.page__line-circle{
+    position: relative;
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0E8784;
+    border-radius:15.5px;
+}
+.page__line-circle:nth-child(1)::after ,.page__line-circle:nth-child(2)::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border: 1px solid #FDD6BA;
+    width: 378px;
+    top: 12px;
+    left: 15px;
+}
+.page__cards{
+    display: flex;
+    justify-content: space-between;
+    height: 357px;
+    width: 1045px;
+    margin: 67px 0;
+}
+.page__cards-card{
+    width: 285px;
+}
+.page__card-title{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+.page__card-header{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FEFCF7;
+    margin: 38px 0;
+}
+.page__card-text{
+    width: 285px;
+    height: 132px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+.drink{
+    display: flex;
+    justify-content: space-between;
+    height: 2515px;
+    margin-top: 168px;
+    padding: 0 85px;
+}
+.drink__list{
+    width: 255px;
+    height: 356px;
+}
+.drink__list-item{
+    padding: 24px 0;
+    border-bottom: 1px solid #83888F;
+    color: #83888F;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+}
+.drink__list-item:hover:active{
+    color: #333D4B;
+}
+.drink__list-number{
+    color: #83888F;
+    padding-right: 28.5;
+}
+.drink__list-item:nth-last-of-type(1){
+    color: #333D4B;
+    border-bottom: none;
+}
+.drink__div{
+    width: 730px;
+    height: 2515px;
+    display: flex;
+    flex-direction: column;
+}
+.drink__yourcoffee{
+    width: 730px;
+    height: 354px;
+    margin-bottom: 88px;
+}
+.drink__yourcoffee-header{
+    display: flex;
+    justify-content: space-between;
+}
+.drink__yourcoffee-title{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+}
+.drink__yourcoffee-span{position: relative;
+    top: 18px;
+    width: 18px;
+    height: 11px;
+}
+.drink__yourcoffee-box{
+    height: 250px;
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+.drink__yourcoffee-card{
+    width: 228px;
+    height: 250px;
+    padding: 32px 28px;
+    background: #f4f1eb;
+    border-radius: 8px;
+    color: #333D4B;
+}
+.drink__yourcoffee-card2{
+    color: #fff;
+    background-color: #0E8784;
+}
+.drink__yourcoffee-card:hover{
+    background-color: #fdd6ba;
+}
+.drink__yourcoffee-card-title{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+}
+.drink__yourcoffee-card-text{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.drink__order{
+    width: 730px;
+    height: 208px;
+    color: #fff;
+    background-color: #2C343E;
+    padding: 27px 64px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.drink__order-title{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.5;
+}
+.drink__order-text{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+}
+.drink__order-span{
+    color: #0E8784;
+}
+.drink__btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.drink__btn-btn{
+    width: 217px;
+    height: 56px;
+    border-radius: 6px;
+    background: #66d2cf;
+    padding: 15px 35px;
+    color: #fff;
+    border: none;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.footer{
+    margin-top: 168px;
+    height: 208px;
+}
+.fot{
+    width: inherit;
+    height: 120px;
+    background: #2C343E;
+    padding: 47px 85px;
+    display: flex;
+}
+.fot_logo{
+    display: flex;
+    width: 203px;
+    height: 24px;
+}
+.fot_list{
+    display: flex;
+    width: 283px;
+    height: 15px;
+    list-style-type: none;
+    margin-left: 128px;
+    margin-right: 367px;
+}
+.fot_list a{
+    text-decoration: none;
+    margin: 0 5px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+.fot_links{
+    width: 120px;
+    height: 24px;
+    display: flex;
+    list-style-type: none;
+}
+.fot_links img{
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+
