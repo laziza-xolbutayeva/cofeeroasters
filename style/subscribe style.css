@@ -256,7 +256,7 @@ header {
     width: 217px;
     height: 56px;
     border-radius: 6px;
-    background: #66d2cf;
+    background: #0E8784;
     padding: 15px 35px;
     color: #fff;
     border: none;
@@ -313,3 +313,153 @@ header {
     margin: 0 10px;
 }
 
+
+@media only screen and (max-width: 768px){
+    .container{
+        width: 689px;
+        margin: 0 auto;
+    }
+    .nav_ul{
+        width: 50%;
+    }
+    
+    .section{
+        width: 689px;
+        height: 400px;
+        background-image: url("../images/subscribe/tablet-img.png");
+    }
+    .widget {
+        position: relative;
+        width: 398px;
+        height: 147px;
+        left: 58px;
+        top: 127px;
+    }
+    .widget_title{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .widget_text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /* page */
+    
+    .page{
+        height: 640px;
+        width: 768px;
+        padding: 91px 0px;
+        margin-top: 130px;
+    }
+    
+    .page__line{
+        width: 497px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .page__line-circle:nth-child(1)::after ,.page__line-circle:nth-child(2)::after{
+        width: 231px;
+    }
+    .page__cards{
+        display: flex;
+        justify-content: space-between;
+        height: 367px;
+        width: 689px;
+        margin: 48px 0;
+    }
+    .page__cards-card{
+        width: 223px;
+    }
+    .page__card-header{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .page__card-text{
+        width: 223px;
+        height: 150px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .drink{
+        display: flex;
+        justify-content: space-between;
+        height: 2515px;
+        width: 689px;
+        margin-top: 144px;
+        padding: 0px;
+    }
+    .drink__list{
+        display: none;
+    }
+    .drink__div{
+        width: 730px;
+        height: 2515px;
+        display: flex;
+        flex-direction: column;
+    }
+    .drink__yourcoffee{
+        width: 689px;
+        height: 338px;
+        margin-bottom: 100px;
+    }
+    .drink__yourcoffee-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .drink__yourcoffee-title{
+        font-size: 32px;
+    }
+    .drink__yourcoffee-box{
+        height: 250px;
+        margin-top: 40px;
+        display: flex;
+    }
+    .drink__yourcoffee-card{
+        width: 223px;
+        height: 250px;
+        padding: 32px 25px;
+    }
+    .drink__yourcoffee-card2{
+        color: #fff;
+        background-color: #0E8784;
+    }
+    .drink__yourcoffee-card:hover{
+        background-color: #fdd6ba;
+    }
+    .drink__order{
+        width: 689px;
+        padding: 27px 44px;
+    }
+    .drink__btn{
+        display: flex;
+        justify-content: center;
+    }
+        
+    .footer{/**/
+        position: relative;
+        top: 144px;
+        height: 342px;
+    }
+    .fot{
+        height: 270px;/**/
+        padding: 54px 215px;/**/
+        display: flex;
+        flex-direction: column;/**/
+        text-align: center;
+    }
+    .fot_logo{
+        position: relative;
+        left: 30px;
+    }
+    .fot_list{
+        display: flex;
+        justify-content: space-between;/**/
+        margin-left: 0px;/**/
+        margin-right: 0px;/**/
+        margin: 33px 0 65px 0;/**/
+    }
+    .fot_links{
+        position: relative;
+        left:70px;/**/
+    }
+}
