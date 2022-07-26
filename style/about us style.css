@@ -44,7 +44,7 @@ header {
 .section{
     width: 1280px;
     height: 450px;
-    background-image: url("../images/Bitmap.jpg");
+    background-image: url("../images/Bitmap2.jpg");
     border-radius: 10px;
 }
 .widget {
@@ -75,11 +75,11 @@ header {
     width: 1110px;
     height: 520px;
     margin: 168px auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sec-one_img{
-    display: inline-block;
-    float: left;
     position: relative;
     width: 445px;
     height: 520px;
@@ -89,13 +89,10 @@ header {
     border-radius:8px;
 }
 .sec_wid{
-    display: inline-block;
-    float: left;
     position: relative;
     width: 540px;
     height: 340px;
     top: 90px;
-    left: 125px;
 }
 
 .sec_wid_title{
@@ -128,7 +125,7 @@ header {
     position: relative;
     width: 540px;
     height: 210px;
-    top: 176px;
+    top: 100px;
     left: 85px;
 }
 .sec-two_wid_title{
@@ -151,20 +148,24 @@ header {
     opacity: 0.8;
 }
 .sec-two_img{
-    position: relative;
-    left: 170px
+    position: absolute;
+    right: 85px;
+    top: -76px;
+    width: 445px;
+    height: 474px;
 }
 .sec-two_images{
-    border-radius: 8px
+    border-radius: 8px;
+    width: 445px;
+    height: 474px;
 }
 .sec-two_wid2{
-    position: absolute;
+    position: relative;
     width: 1280px;
     height: 474px;
     background: #2C343E;
     border-radius: 10px;
-    top: 1507px;
-    left: 45px;
+    top: 172px;
 }
 .sec-three{
     position: relative;
@@ -259,3 +260,177 @@ header {
     margin: 0 10px;
 }
 
+@media only screen and (max-width: 786px){
+    .container{
+        width: 689px;
+        margin: 0 auto;
+    }
+
+    .nav_ul{
+        width: 50%;
+    }
+    
+    .section{
+        width: 689px;
+        height: 400px;
+        background-image: url("../images/tabletbitmap.jpg");
+    }
+    .widget {
+        position: relative;
+        width: 398px;
+        height: 164px;
+        left: 58px;
+        top: 118px;
+    }
+    .widget_title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .widget_text{
+        width: 398px;
+        height: 100px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    .sec-one{
+        width: 689px;
+        height: 470px;
+        margin: 144px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .sec-one_img{
+        position: relative;
+        width: 281px;
+        height: 470px;
+    
+    }
+    .sec-one_images{
+        border-radius:8px;
+        width: 281px;
+        height: 470px;
+    }
+    .sec_wid{
+        position: relative;
+        width: 339px;
+        height: 453px;
+        top: 8px;
+    }
+    
+    .sec_wid_title{
+        font-size: 32px;
+    }
+    .sec_wid_text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .sec-two{
+        display: flex;
+        flex-direction: row;
+        width: 688px;
+        height: 648px;
+    }
+    .sec-two_wid{
+        position: absolute;
+        width: 540px;
+        height: 197px;
+        top: 224px;
+        left: 74px;
+        text-align: center;
+    }
+    .sec-two_wid_title{
+        font-size: 32px;
+    }
+    .sec-two_wid_text{
+        width: 540px;
+        height: 125px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .sec-two_img{
+        position: absolute;
+        right: 50px;
+        top: -200px;
+        width: 573px;
+        height: 320px;
+    }
+    .sec-two_images{
+        border-radius: 8px;
+        width: 573px;
+        height: 320px;
+    }
+    .sec-two_wid2{
+        position: relative;
+        width: 688px;
+        height: 488px;
+        background: #2C343E;
+        border-radius: 10px;
+        top: 160px;
+    }
+
+    .sec-three{
+        position: relative;
+        width: 688px;
+        height: 366px;
+        top: 144px;
+        left: 0px;
+        margin-bottom: 144px;
+    }
+    .sec-three_wid{
+        margin-top: 73px;
+        width: 688px;
+        height: 262px;
+    }
+    .sec-three_wid1{
+        width: 33%;
+    
+    }
+    .sec-three_caption{
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 36px;
+        color: #333D4B;
+        margin-bottom: 23px;
+        margin-top: 45px;
+    }
+    .sec-three_list{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+    
+.footer{/**/
+    position: relative;
+    top: 144px;
+    height: 342px;
+}
+.fot{
+    height: 270px;/**/
+    padding: 54px 215px;/**/
+    display: flex;
+    flex-direction: column;/**/
+    text-align: center;
+}
+.fot_logo{
+    position: relative;
+    left: 30px;
+}
+.fot_list{
+    display: flex;
+    justify-content: space-between;/**/
+    margin-left: 0px;/**/
+    margin-right: 0px;/**/
+    margin: 33px 0 65px 0;/**/
+}
+.fot_links{
+    position: relative;
+    left:70px;/**/
+}
+}
