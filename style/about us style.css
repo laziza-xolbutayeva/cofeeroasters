@@ -260,7 +260,7 @@ header {
     margin: 0 10px;
 }
 
-@media only screen and (max-width: 786px){
+@media only screen and (max-width: 768px){
     .container{
         width: 689px;
         margin: 0 auto;
