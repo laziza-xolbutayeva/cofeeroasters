@@ -116,6 +116,7 @@ header {
 }
 
 .sec-two{
+    position: relative;
     display: flex;
     flex-direction: row;
     width: 1280px;
@@ -153,11 +154,8 @@ header {
     top: -76px;
     width: 445px;
     height: 474px;
-}
-.sec-two_images{
+    background-image: url("/images/img3.png");
     border-radius: 8px;
-    width: 445px;
-    height: 474px;
 }
 .sec-two_wid2{
     position: relative;
@@ -168,11 +166,9 @@ header {
     top: 172px;
 }
 .sec-three{
-    position: relative;
     width: 1045px;
     height: 366px;
-    top: 148px;
-    left: 165px;
+    margin-top: 200px;
 }
 .sec-three_title{
     font-family: 'Fraunces 9pt';
@@ -213,6 +209,7 @@ header {
 }
 
 .footer{
+    position: relative;
     margin-top: 168px;
     height: 208px;
 }
@@ -352,9 +349,10 @@ header {
     .sec-two_img{
         position: absolute;
         right: 50px;
-        top: -200px;
+        top: -160px;
         width: 573px;
         height: 320px;
+        background-image: url("/images/Bitmaptablet.png");
     }
     .sec-two_images{
         border-radius: 8px;
